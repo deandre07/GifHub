@@ -1,10 +1,10 @@
 import {
     addBtnToToolbars,
     onPartialRender,
-    onGiphyBtnClick,
-    insertTextAtCursor
+    onGiphyBtnClick
 } from './page';
 import widget from '../../widget';
+import { insertTextAtCursor } from '../../utils';
 import { startSearch, listenForGiphyResponse } from '../../events';
 import { toMarkdownImage } from '../../utils';
 import { bypassCSPForImages } from './api';
