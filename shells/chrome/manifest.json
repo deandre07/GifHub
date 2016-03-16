@@ -9,7 +9,8 @@
         "run_at": "document_idle"
     }],
     "web_accessible_resources": [
-        "bundle.js",
+        "github.js",
+        "bitbucket.js",
         "extension.css"
     ],
     "permissions": [

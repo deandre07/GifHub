@@ -3,7 +3,7 @@
 window.addEventListener('message', msg => {
     if (msg.data && msg.data.installGiphy) {
         injectCSSFile('extension.css');
-        injectJSFile('bundle.js');
+        injectJSFile('github.js');
     };
 
     if (msg.data && msg.data.giphySearch) {
